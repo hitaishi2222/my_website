@@ -1,31 +1,157 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body class="min-h-screen bg-slate-50 dark:bg-black dark:text-white">
-    <header class="bg-teal-950 text-white sticky top-0 z-10">
-        <section class="max-w-4xl mx-auto p-4 flex justify-between items-center">
-            <a href="#hero"><img src="./img/letter-h.png" alt="logo" class="h-8"></a>
-            <div>
-                <button id="mobile-open-button" class="text-3xl sm:hidden focus:outline-none">&#9776;</button>
-                <nav class="hidden sm:block space-x-8 text-xl" aria-label="main">
-                    <a href="#research" class="hover:opacity-90 font-code">Research</a>
-                    <a href="#blogs" class="hover:opacity-90 font-code">Blogs</a>
-                    <a href="#achivements" class="hover:opacity-90 font-code">Achievements</a>
-                    <a href="#about" class="hover:opacity-90 font-code">About</a>
-                </nav>
-            </div>
-        </section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body
+    class="min-h-screen bg-slate-50 dark:bg-preferred backdrop:ack dark:text-white"
+  >
+    <header class="bg-[#14181D] text-white sticky top-0 z-10">
+      <section class="max-w-4xl mx-auto p-4 flex justify-end items-center">
+        <div>
+          <nav class="hidden sm:block space-x-8 text-xl" aria-label="main">
+            <a href="#" class="hover:text-[#76ABAE] font-code">Home</a>
+            <a href="./research.html" class="hover:text-[#76ABAE] font-code"
+              >Research</a
+            >
+            <a href="#blogs" class="hover:text-[#76ABAE] font-code">Blogs</a>
+            <a href="#achivements" class="hover:text-[#76ABAE] font-code"
+              >Achievements</a
+            >
+            <a href="#about" class="hover:text-[#76ABAE] font-code">About</a>
+          </nav>
+        </div>
+      </section>
     </header>
     <main class="max-w-4xl mx-auto">
-        <section id="hero" class="flex flex-col-reverse justify-center sm:flex-row p-6 items-center gap-8 mb-12">
-            <article class="sm:w-1/2">
-                <h2 class="max-w-md text-4xl font-bold"></h2>
-            </article>
-        </section>
+      <section
+        id="hero"
+        class="flex flex-col-reverse justify-start sm:flex-row p-6 items-center gap-8 mb-12"
+      >
+        <article class="sm:w-1/2 mt-12">
+          <h2
+            class="max-w-md text-center sm:text-5xl sm:text-left text-slate-900 dark:text-white"
+          >
+            <span class="poppins-light-italic text-3xl">Hi, I am </span>
+            <div>
+              <span
+                class="text-orange-700 dark:text-[#76ABAE] poppins-extrabold text-6xl"
+                >Hitaishi V.</span
+              >
+            </div>
+            <hr
+              class="h-px my-6 bg-[#76ABAE] border-0 dark:bg-[#76ABAE] opacity-50"
+            />
+          </h2>
+          <p
+            class="max-w-md text-xl mt4 text-justify sm:text-left text-slate-700 dark:text-slate-400"
+          >
+            A self driven researcher, passionate about finding novel solutions
+            for complex problems in field of photonics and lasers.
+          </p>
+        </article>
+        <img
+          src="./img/Edited_image.png"
+          class="sm:w-1/2 h-[400px] object-cover object-top"
+        />
+      </section>
+      <section id="quote" class="flex flex-col">
+        <div class="h-20 bg-[#76ABAE] rounded-full bg-opacity-5 text-white">
+          <p class="mt-5 mx-auto my-auto text-center">
+            “Today, we commit to this next great leap into the cosmos because
+            we're human, and our nature is to fly.”
+          </p>
+          <p class="left-[680px] my-auto text-center italic">
+            -Stephen Hawking
+          </p>
+        </div>
+      </section>
+      <section id="blogs">
+        <div class="my-3 pt-5 text-2xl text-left text-[#31363F] poppins-bold">
+          BLOGS
+        </div>
+        <div class="flex flex-row gap-2">
+          <div
+            class="basis-1/3 dark:bg-transparent rounded-lg overflow-hidden border-2 border-[#76ABAE] border-opacity-30"
+          >
+            <div class="aspect-video bg-slate-300"></div>
+            <div class="text-center text-sm poppins-medium p-2">Hello</div>
+          </div>
+          <div
+            class="basis-1/3 dark:bg-transparent rounded-lg overflow-hidden border-2 border-[#76ABAE] border-opacity-30"
+          >
+            <div class="aspect-video bg-slate-300"></div>
+            <div class="text-center text-sm poppins-medium p-2">Hello</div>
+          </div>
+          <div
+            class="basis-1/3 dark:bg-transparent rounded-lg overflow-hidden border-2 border-[#76ABAE] border-opacity-30"
+          >
+            <div class="aspect-video bg-slate-300"></div>
+            <div class="text-center text-sm poppins-medium p-2">Hello</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="papers">
+        <div class="my-3 pt-5 text-2xl text-left text-[#31363F] poppins-bold">
+          Research Articles
+        </div>
+        <div class="flex flex-col">
+          <hr class="bg-[#76ABAE] dark:bg-[#76ABAE] opacity-10" />
+          <div class="bg-red-300 dark:bg-transparent my-5 px-5">
+            <a
+              href="https://doi.org/10.1109/ACCESS.2023.3242692"
+              class="text-wrap text-left text-[18px] poppins-medium text-gray-400 hover:text-[#76ABAE] hover:opacity-50"
+              >Broadband Supercontinuum Generation Using Dispersion Engineered
+              As₂Se₃-GeAsSe-GeAsS Waveguide at 6 μm</a
+            >
+            <h2 class="pt-2 poppins-regular-italic">
+              Authors: Hitaishi V, Nandam Ashok
+            </h2>
+          </div>
+          <hr class="bg-[#76ABAE] dark:bg-[#76ABAE] opacity-10" />
+          <div class="bg-red-300 dark:bg-transparent my-5 px-5">
+            <a
+              href="https://doi.org/10.1016/j.optmat.2023.114668"
+              class="text-wrap text-left text-[18px] poppins-medium text-gray-400 hover:text-[#76ABAE] hover:opacity-50"
+              >Mid-IR supercontinuum generation using a slab with D-shaped/semi-ellipse core waveguide at 4μm</a
+            >
+            <h2 class="pt-2 poppins-regular-italic">
+              Authors: Hitaishi V, Nandam Ashok
+            </h2>
+          </div>
+        </div>
+      </section>
+      
     </main>
-</body>
+    <footer id="footer" class="bg-[#222831] bottom-0 left-0 z-20 w-full p-4">
+      <section class="max-w-4xl mx-auto p-4 flex justify-end items-center">
+        <div class="flex flex-col">
+          <h2 class="text-end px-2">Made using 🧠</h2>
+          <div class="mt-2 flex flex-row gap-2">
+            <a href="https://www.instagram.com/hitaishi_v">
+              <button class="py-2 px-8 bg-[#76ABAE] hover:bg-[#76ABAE] hover:opacity-50 rounded-full">
+              <img src="./img/icons8-instagram-100.png" alt="instagram" class="h-[25px]">
+            </a>
+            <a href="https://www.linkedin.com/in/hitaishi-v">
+              <button class="py-2 px-8 bg-[#76ABAE] hover:bg-[#76ABAE] hover:opacity-50 rounded-full">
+              <img src="./img/icons8-linked-in-100.png" alt="instagram" class="h-[25px]">
+            </a>
+            <a href="https://scholar.google.com/citations?hl=en&user=NK0wC2YAAAAJ">
+              <button class="py-2 px-8 bg-[#76ABAE] hover:bg-[#76ABAE] hover:opacity-50 rounded-full">
+              <img src="./img//icons8-graduation-cap-90.png" alt="instagram" class="h-[25px]">
+            </a>
+            <a href="https://x.com/hitaishi2">
+              <button class="py-2 px-8 bg-[#76ABAE] hover:bg-[#76ABAE] hover:opacity-50 rounded-full">
+              <img src="./img/icons8-twitterx-50.png" alt="instagram" class="h-[25px]">
+            </a>
+            </button>
+          </div>
+        </div>
+      </section>
+      
+    </footer>
+  </body>
 </html>

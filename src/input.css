@@ -127,4 +127,45 @@
     font-weight: 900;
     font-style: italic;
 }
+
+.dark\:text-primary-color {
+    --tw-text-opacity: 1;
+    color: rgb(49 54 63 / var(--tw-text-opacity));
+}
+
+.dark\:text-secondary-color {
+    --tw-text-opacity: 1;
+    color: rgb(118 171 174 / var(--tw-text-opacity));
+}
+
+.dark\:text-third-color {
+    --tw-text-opacity: 1;
+    color: rgb(34 40 49 / var(--tw-text-opacity));
+}
+
+.dark\:text-read-color {
+    --tw-text-opacity: 1;
+    color: rgb(238 238 238 / var(--tw-text-opacity));
+}
+
+@media (prefers-color-scheme: dark) {
+    .dark\:bg-preferred {
+      --tw-bg-opacity: 1;
+      background-color: rgb(20 24 29 / var(--tw-bg-opacity));
+    }
   
+    .dark\:text-slate-400 {
+      --tw-text-opacity: 1;
+      color: rgb(148 163 184 / var(--tw-text-opacity));
+    }
+  
+    .dark\:text-teal-700 {
+      --tw-text-opacity: 1;
+      color: rgb(15 118 110 / var(--tw-text-opacity));
+    }
+  
+    .dark\:text-white {
+      --tw-text-opacity: 1;
+      color: rgb(255 255 255 / var(--tw-text-opacity));
+    }
+  }
