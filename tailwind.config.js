@@ -1,8 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./build/*.html"],
+  content: ["./build/**/*.html"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#76ABAE",
+        secondary: "#222831",
+        baseBg: "#14181D"
+      }
+    },
     fontFamily: {
       'sans': ['ui-sans-serif', 'system-ui'],
       'serif': ['ui-serif', 'Georgia'],

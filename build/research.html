@@ -8,69 +8,156 @@
   <body
     class="min-h-screen bg-slate-50 dark:bg-preferred backdrop:ack dark:text-white"
   >
-    <header class="bg-[#14181D] text-white sticky top-0 z-10">
+    <header class="bg-baseBg text-white sticky top-0 z-10">
       <section class="max-w-4xl mx-auto p-4 flex justify-end items-center">
         <div>
           <nav class="hidden sm:block space-x-8 text-xl" aria-label="main">
-            <a href="./index.html" class="hover:text-[#76ABAE] font-code">Home</a>
-            <a href="./research.html" class="text-[#76ABAE] font-code"
+            <a href="./index.html" class="hover:text-primary font-code">Home</a>
+            <a href="./research.html" class="text-primary font-code"
               >Research</a
             >
-            <a href="#blogs" class="hover:text-[#76ABAE] font-code">Blogs</a>
-            <a href="#achivements" class="hover:text-[#76ABAE] font-code"
+            <a href="./blogs.html" class="hover:text-primary font-code"
+              >Blogs</a
+            >
+            <a href="#achivements" class="hover:text-primary font-code"
               >Achievements</a
             >
-            <a href="#about" class="hover:text-[#76ABAE] font-code">About</a>
+            <a href="./about.html" class="hover:text-primary font-code">About</a>
           </nav>
         </div>
       </section>
     </header>
     <main class="max-w-4xl mx-auto">
-      <div id="heading" class="poppins-bold text-6xl text-[#76ABAE] py-5">Research</div>
-      <div id="areas" class="relative wl-full">
-        <div class="absolute inset-0 bg-gradient-to-l from-[#76abae] to-[#222831] h-[280px] bg-transparent opacity-10 rounded-xl"></div>
-        <div class="px-10 py-5">
-            <h1 class="text-gray-600 text-[22px] poppins-medium"> Research Areas </h1>
-            <hr class="w-[180px] my-2 opacity-20 bg-gray-800">
-            <ul class="ml-5 list-disc list-inside text-[18px] poppins-regular">
-                <li>Supercontinuum Generation</li>
-                <li>Optical fibers</li>    
-                <li>Optical Sensors</li>    
-                <li>Nonlinear Photonics</li>    
-                <li>Photonics Integrated Circuits</li>    
-                <li>Waveguide design and Fabrication</li>    
-            </ul>
-        </div>
-        
+      <div id="heading" class="poppins-bold text-6xl text-primary py-5">
+        Research
       </div>
-      
-    </main>
-    <footer id="footer" class="fixed bg-[#222831] bottom-0 left-0 z-20 w-full p-4">
-      <section class="max-w-4xl mx-auto p-4 flex justify-end items-center">
+      <div id="areas" class="relative wl-full">
+        <div
+          class="absolute inset-0 bg-gradient-to-l from-primary to-[#222831] h-[280px] bg-transparent opacity-10 rounded-xl"
+        ></div>
+        <div class="px-10 py-5">
+          <h1 class="text-gray-600 text-[22px] poppins-medium">
+            Research Areas
+          </h1>
+          <hr class="w-[180px] my-2 opacity-20 bg-gray-800" />
+          <ul class="ml-5 list-disc list-inside text-[18px] poppins-regular">
+            <li>Supercontinuum Generation</li>
+            <li>Optical fibers</li>
+            <li>Optical Sensors</li>
+            <li>Nonlinear Photonics</li>
+            <li>Photonics Integrated Circuits</li>
+            <li>Waveguide design and Fabrication</li>
+          </ul>
+        </div>
+      </div>
+
+      <section id="papers" class="mt-10">
+        <div class="my-3 pt-5 text-2xl text-left text-gray-600 poppins-bold">
+          Research Articles
+        </div>
         <div class="flex flex-col">
-          <h2 class="text-end px-2">Made using 🧠</h2>
-          <div class="mt-2 flex flex-row gap-2">
-            <a href="https://www.instagram.com/hitaishi_v">
-              <button class="py-2 px-8 bg-[#76ABAE] hover:bg-[#76ABAE] hover:opacity-50 rounded-full">
-              <img src="./img/icons8-instagram-100.png" alt="instagram" class="h-[25px]">
-            </a>
-            <a href="https://www.linkedin.com/in/hitaishi-v">
-              <button class="py-2 px-8 bg-[#76ABAE] hover:bg-[#76ABAE] hover:opacity-50 rounded-full">
-              <img src="./img/icons8-linked-in-100.png" alt="instagram" class="h-[25px]">
-            </a>
-            <a href="https://scholar.google.com/citations?hl=en&user=NK0wC2YAAAAJ">
-              <button class="py-2 px-8 bg-[#76ABAE] hover:bg-[#76ABAE] hover:opacity-50 rounded-full">
-              <img src="./img//icons8-graduation-cap-90.png" alt="instagram" class="h-[25px]">
-            </a>
-            <a href="https://x.com/hitaishi2">
-              <button class="py-2 px-8 bg-[#76ABAE] hover:bg-[#76ABAE] hover:opacity-50 rounded-full">
-              <img src="./img/icons8-twitterx-50.png" alt="instagram" class="h-[25px]">
-            </a>
-            </button>
+          <hr class="bg-primary dark:bg-primary opacity-10 border-0 h-px" />
+          <div class="my-5 px-5">
+            <a
+              href="https://doi.org/10.1109/ACCESS.2023.3242692"
+              class="text-wrap text-left text-[18px] poppins-medium hover:text-primary hover:opacity-50"
+              >Broadband Supercontinuum Generation Using Dispersion Engineered
+              As₂Se₃-GeAsSe-GeAsS Waveguide at 6 μm</a
+            >
+            <h2 class="pt-2 poppins-regular-italic dark:text-gray-600">
+              Authors: Hitaishi V, Nandam Ashok
+            </h2>
+          </div>
+          <hr class="bg-primary dark:bg-primary opacity-10 border-0 h-px" />
+          <div class="bg-red-300 dark:bg-transparent my-5 px-5">
+            <a
+              href="https://doi.org/10.1016/j.optmat.2023.114668"
+              class="text-wrap text-left text-[18px] poppins-medium hover:text-primary hover:opacity-50"
+              >Mid-IR supercontinuum generation using a slab with
+              D-shaped/semi-ellipse core waveguide at 4μm</a
+            >
+            <h2 class="pt-2 poppins-regular-italic dark:text-gray-600">
+              Authors: Hitaishi V, Nandam Ashok
+            </h2>
+          </div>
+          <hr class="bg-primary dark:bg-primary opacity-10 border-0 h-px" />
+          <div class="bg-red-300 dark:bg-transparent my-5 px-5">
+            <a
+              href="https://doi.org/10.1109/5NANO53044.2022.9828972"
+              class="text-wrap text-left text-[18px] poppins-medium hover:text-primary hover:opacity-50"
+              >Slot waveguide microring resonator based on silicon nitride for
+              refractive index sensing</a
+            >
+            <h2 class="pt-2 poppins-regular-italic dark:text-gray-600">
+              Authors: Jayakrishnan Kulanthaivel, Hitaishi V, Nandam Ashok
+            </h2>
+          </div>
+          <hr class="bg-primary dark:bg-primary opacity-10 border-0 h-px" />
+          <div class="bg-red-300 dark:bg-transparent my-5 px-5">
+            <a
+              href="https://doi.org/10.1007/s11082-024-07396-2"
+              class="text-wrap text-left text-[18px] poppins-medium hover:text-primary hover:opacity-50"
+              >A Tamm-Fano resonance glucose sensor based on Cu and distributed
+              bragg reflector plasmonic coupling interface in the near-infrared
+              regime</a
+            >
+            <h2 class="pt-2 poppins-regular-italic dark:text-gray-600">
+              Authors: Jayakrishnan Kulanthaivel, Hitaishi V, Nandam Ashok
+            </h2>
+          </div>
+          <hr class="bg-primary dark:bg-primary opacity-10 border-0 h-px" />
+          <div class="bg-red-300 dark:bg-transparent my-5 px-5">
+            <a
+              href="https://doi.org/10.1007/978-981-99-1616-0_9"
+              class="text-wrap text-left text-[18px] poppins-medium hover:text-primary hover:opacity-50"
+              >Design and Analysis of Chalcogenide GeAsSe Waveguide for
+              Dispersion Properties</a
+            >
+            <h2 class="pt-2 poppins-regular-italic dark:text-gray-600">
+              Authors: Hitaishi V, Jayakrishnan Kulanthaivel, Nandam Ashok
+            </h2>
           </div>
         </div>
       </section>
-      
+    </main>
+    <footer
+      id="footer"
+      class=" bg-secondary bottom-0 left-0 z-20 w-full p-4"
+    >
+      <section class="max-w-4xl mx-auto p-1 flex justify-end items-center">
+        <div class="flex flex-col">
+          <h2 class="text-end px-2">Made using 🧠</h2>
+          <div class="mt-2 flex flex-row gap-2">
+            <a
+              href="https://www.instagram.com/hitaishi_v"
+              class="py-2 px-8 bg-primary hover:bg-primary hover:opacity-50 rounded-full"
+            >
+              <img src="./img/icons8-instagram-100.png" class="h-[25px]" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/hitaishi-v"
+              class="py-2 px-8 bg-primary hover:bg-primary hover:opacity-50 rounded-full"
+            >
+              <img src="./img/icons8-linked-in-100.png" class="h-[25px]" />
+            </a>
+            <a
+              href="https://scholar.google.com/citations?hl=en&user=NK0wC2YAAAAJ"
+              class="py-2 px-8 bg-primary hover:bg-primary hover:opacity-50 rounded-full"
+            >
+              <img
+                src="./img//icons8-graduation-cap-90.png"
+                class="h-[25px]"
+              />
+            </a>
+            <a
+              href="https://x.com/hitaishi2"
+              class="py-2 px-8 bg-primary hover:bg-primary hover:opacity-50 rounded-full"
+            >
+              <img src="./img/icons8-twitterx-50.png" class="h-[25px]" />
+            </a>
+          </div>
+        </div>
+      </section>
     </footer>
   </body>
 </html>
