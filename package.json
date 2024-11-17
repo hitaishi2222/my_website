@@ -5,7 +5,7 @@
   "scripts": {
     "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch",
     "prettier": "npx prettier --write **/*.html",
-    "build": "npx tailwindcss -i ./build/css/style.css -o dist/style.css --minify"
+    "build": "npx tailwindcss -i ./src/input.css -o dist/style.css --minify"
   },
   "keywords": [],
   "author": "Hitaishi",
